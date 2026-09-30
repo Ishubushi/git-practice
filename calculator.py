@@ -1,4 +1,6 @@
-num1 = 15 
-num2 = 25 
+# Interactive Calculator Script 
+print("--- Simple Python Calculator ---") 
+num1 = float(input("Enter first number: ")) 
+num2 = float(input("Enter second number: ")) 
 total = num1 + num2 
-print(f"The sum of {num1} and {num2} is {total}") 
+print(f"Result: {num1} + {num2} = {total}") 
